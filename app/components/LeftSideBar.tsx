@@ -11,7 +11,7 @@ const LeftSideBar = () => {
   <aside className="hidden xl:block fixed left-0 top-0 bottom-0  pt-6 pb-[var(--bottom-navbar-height)] z-10 w-20 border-e bg-background rounded-br-8xl ">
    <div className="flex flex-col justify-between h-full ">
     {/* logo */}
-    <div className="flex-1 flex justify-center ">
+    <div className="flex justify-center ">
      <Link href="/" className="block">
       <div className="text-xl font-bold text-primary">
        <Image src="/ErMedlogo.png" width={70} height={80} alt="ErMed logo" property='og:image' />
@@ -20,12 +20,12 @@ const LeftSideBar = () => {
     </div>
 
     {/* theme mode */}
-    <div className="flex-1">
+    <div className="">
      <ThemeSwitch />
     </div>
 
     {/* social icons */}
-    <div className="flex-1 border-t border-muted/30">
+    <div className=" border-t border-muted/30">
      <ul className=" flex flex-col justify-end  divide-y divide-muted/30">
       {socialLinks.map((link) => (
        <li key={link.name}>

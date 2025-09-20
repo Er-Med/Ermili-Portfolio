@@ -8,7 +8,6 @@ type SkillRangeProps = {
 };
 
 const SkillRange = ({
- number = 1,
  tool = "React",
  percent = 85,
  iconSrc = "/tools/react.svg",

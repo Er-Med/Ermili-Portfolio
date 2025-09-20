@@ -2,23 +2,29 @@ import Image from "next/image";
 import MainTitle from "../components/MainTitle";
 import SkillRange from "../components/SkillRange";
 import ResumeSection from "../components/ResumeSection";
-import TestimonialSection from "../components/TestimonialSection";
+import MainButton from "../components/MainButton";
 
 const page = () => {
  return (
   <div className="grid bg-background xl:ml-[var(--left-sidebar-width)] ">
    <div className="flex flex-col lg:flex-row">
     {/* Left Section */}
-    <section className="lg:sticky bg-primary/20  top-0 flex min-w-[40%] lg:h-screen  flex-col gap-6 items-center  p-4 md:px-0 py-[var(--bottom-navbar-height)]">
-     <Image src="/imgme.jpeg"
+    <section className="relative z-20 hidden lg:flex lg:sticky bg-primary/10  top-0  min-w-[40%] lg:h-screen  flex-col gap-6 items-center  p-4 md:px-0 py-[var(--bottom-navbar-height)]">
+     {/* <div className="grid-lines -z-10"></div> */}
+     <Image src="/Mouha.png"
       width={300}
       height={300}
       alt="mohamed ermili image"
-      className=" w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] object-cover object-top rounded-xl rounded-tl-none"
+      className=" w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] xl:w-[310px] xl:h-[330px] object-cover object-top rounded-xl rounded-tl-none"
      />
-     <div className="flex justify-center items-center gap-2 flex-col ">
-      <h4 className="text-4xl md:text-5xl font-bold">Ermili Mohamed</h4>
-      <h5 className="text-xl md:text-2xl font-medium text-primary"> Front-end Developer</h5>
+     <div className="flex flex-col gap-10 items-center">
+      <div className="flex justify-center items-center gap-2 flex-col ">
+       <h4 className="text-4xl md:text-5xl font-bold">Ermili Mohamed</h4>
+       <h5 className="text-xl md:text-2xl font-semibold text-primary"> Front-end Developer</h5>
+      </div>
+      <div className="">
+       <MainButton label="Hire Me" />
+      </div>
      </div>
     </section>
     {/* Right Section */}
@@ -63,8 +69,8 @@ const page = () => {
       <ResumeSection />
      </div>
      <div className="flex flex-col gap-10 mt-28">
-      <MainTitle title="Testimonial" />
-      <TestimonialSection />
+      {/* <MainTitle title="Testimonial" /> */}
+      {/* <TestimonialSection /> */}
      </div>
     </section>
    </div>

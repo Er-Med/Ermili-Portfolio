@@ -1,40 +1,105 @@
 @import "tailwindcss";
 
+/* Light mode variables */
 :root {
   --background: #f0efff;
-  --foreground: #171717;
-  --bottom-navbar-height: 65px;
+  --foreground: #000;
+  --bottom-navbar-height: 60px;
+  --left-sidebar-width: 5rem;
+
+  --primary: #5249e5;
+  --secondary: #8b5cf6;
+  --accent: #7c3aed;
+  --muted: #666;
+
+  --surface: #ffffff;
+  --text-dark: #000;
+  --text-light: #f3f0ff;
+  --white: #fff;
+}
+
+/* Theme config inline */
+@theme inline {
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-dark: var(--text-dark);
+  --color-light: var(--text-light);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --color-white: var(--white);
+
+  /* Fonts (define these in tailwind.config.js also) */
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+  --font-orbitron: var(--font-orbitron);
+}
+
+/* Dark mode variables */
+.dark {
+  --background: #212121;
+  --foreground: #ededed;
+
+  --primary: #5249e5;
+  --secondary: #8b5cf6;
+  --accent: #7c3aed;
+  --muted: #e0e0e0;
+
+  --surface: #111218;
+  --text-dark: #ffffff;
+  --text-light: #1a1b23;
+
+  /* Important: white stays white */
+  --white: #fff;
+}
+
+/* :root {
+  --background: #f0efff;
+  --foreground: #000;
+  --bottom-navbar-height: 60px;
   --left-sidebar-width: 5rem;
   --primary: #5249e5;
-}
+  --muted: #666;
+  --dark: #000;
+  --white: #fff;
+} */
 
-@theme inline {
-  --color-primary: #5249e5;
+/* Dark theme via next-themes `class` strategy */
+/* .dark {
+  --background: #212121;
+  --foreground: #ededed;
+  --color-background: #0b0b10;
+  --color-surface: #111218;
+  --color-light: #1a1b23;
   --color-secondary: #8b5cf6;
-  --color-dark: #1f2937;
-  --color-light: #f3f0ff;
-  --color-muted: #666;
   --color-accent: #7c3aed;
-  --color-background: #f0efff;
+  --white: #000;
+  --dark: #ffffff;
+  --muted: #e0e0e0;
+  --primary: #5249e5;
+} */
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: #8b5cf6;
+  --color-dark: var(--foreground);
+  --color-light: #f3f0ff;
+  --color-muted: var(--muted);
+  --color-accent: #7c3aed;
   --color-surface: #ffffff;
+  --color-white: var(--white);
 
-  /* Three font system */
-  --font-sans: var(--font-body); /* Default body text */
-  --font-display: var(--font-heading); /* Section headings */
-  --font-hero: var(--font-hero); /* Hero section only */
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  /* font-family: var(--font-body) ; */
+  font-family: var(--font-body);
 }
 
 h1,
@@ -44,4 +109,17 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+}
+
+/* Utility class for Orbitron font */
+.font-orbitron {
+  font-family: var(--font-orbitron);
+}
+
+.grid-lines {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, #3b82f647 1px, transparent 1px),
+    linear-gradient(to bottom, #3b82f647 1px, transparent 1px);
+  background-size: 100px 100px;
 }

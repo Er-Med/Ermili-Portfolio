@@ -13,7 +13,11 @@ export default function Home() {
             <div className='flex items-center lg:items-start flex-col gap-4  lg:gap-5'>
               {/* <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold"> Ermili<br className="hidden lg:block" /> Mohamed </h1> */}
               <div className="flex flex-col  gap-3">
-                <h1 className=' text-center md:text-start  text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-9xl  font-bold leading-[1.3] relative font-orbitron'>
+                {/* <h1 className=' text-center md:text-start  text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl 3xl:text-[12rem] 4xl:text-[14rem]  font-bold leading-[1.3] relative font-orbitron'>
+                  I&apos;m Ermili <br className="hidden lg:block" /> Mohamed
+                </h1> */}
+                <h1 className='text-center md:text-start font-bold leading-[1.3] relative font-orbitron'
+                  style={{ fontSize: 'clamp(2rem, 5vw, 8rem)' }}>
                   I&apos;m Ermili <br className="hidden lg:block" /> Mohamed
                 </h1>
                 <h2 className='text-center lg:text-start font-semibold text-xl text-display font-display'>
@@ -22,7 +26,7 @@ export default function Home() {
                     {/* Creative */}
                   </span>
                   <span className='w-8 h-0.5 bg-dark me-2 group-hover:bg-primary transition-all duration-300'></span>
-                  <strong className='text-2xl  py-0.5 rounded-sm rounded-tl-none text-primary'>
+                  <strong className='text-xl lg:text-2xl  py-0.5 rounded-sm rounded-tl-none text-primary'>
                     {personalInfo.title}
                   </strong>
                   {/* <strong className='text-2xl text-[#f0f0ff] bg-primary px-2 py-0.5 rounded-sm rounded-tl-none'>

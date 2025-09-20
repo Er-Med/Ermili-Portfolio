@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <main className='bg-background/5  xl:ml-[var(--left-sidebar-width)]'>
       {/* <section className='pb-[calc(var(--bottom-navbar-height)+2rem)]'> */}
-      <section className='grid grid-cols-1 lg:grid-cols-2 h-full '>
+      <section className='grid grid-cols-1 lg:grid-cols-2 h-full xl:h-screen'>
         {/* Left info panel */}
         <div className='bg-primary/10 text-dark  lg:pt-12 px-4 lg:px-8 flex flex-col gap-6 pb-[calc(var(--bottom-navbar-height)+1rem)] py-[var(--bottom-navbar-height)]'>
           <div className="flex flex-col gap-24">
@@ -101,7 +101,7 @@ export default function ContactPage() {
             <div className='pt-2 mt-4 lg:mt-6'>
               <button
                 type='submit'
-                className="rounded-tr-[10px] rounded-bl-[10px] px-6 py-3 bg-primary text-white shadow-[-4px_4px_0px_var(--foreground)]  font-display font-bold hover:cursor-pointer   transition-all duration-200 hover:shadow-[_-2px_2px_0px_var(--foreground)]"
+                className=" rounded-tr-[10px] rounded-bl-[10px] px-6 py-3 bg-primary text-white shadow-[-4px_4px_0px_var(--foreground)]  font-display font-bold hover:cursor-pointer   transition-all duration-200 hover:shadow-[_-2px_2px_0px_var(--foreground)]"
               >
                 {contactFormConfig.submitButton.text}
               </button>

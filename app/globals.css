@@ -119,7 +119,8 @@ h6 {
 .grid-lines {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(to right, #3b82f647 1px, transparent 1px),
+  background-image:
+    linear-gradient(to right, #3b82f647 1px, transparent 1px),
     linear-gradient(to bottom, #3b82f647 1px, transparent 1px);
   background-size: 100px 100px;
 }

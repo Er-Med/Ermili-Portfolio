@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className='bg-background relative'>
       {/* Main content with left margin to account for fixed sidebar */}
-      <div className='bg-background p-4 pt-8 sm:p-6 md:p-8 lg:p-10 xl:p-12 pb-32 sm:pb-18 md:pb-28 xl:pb-24 xl:ml-[var(--left-sidebar-width)] min-h-screen grid items-center xl:items-start'>
+      <div className='bg-background p-4 pt-8 sm:p-6 md:p-8 lg:p-10 xl:p-12 2xl:pl-20 pb-32 sm:pb-18 md:pb-28 xl:pb-24 xl:ml-[var(--left-sidebar-width)] min-h-screen grid items-center xl:items-start'>
         {/* Added lg:ml-12 for sidebar width */}
         <div className='flex gap-8 flex-col lg:flex-row items-center h-full bgd-red-50 flex-1'>
           <div className='bg-acdcent flex-1 '>
             <div className='flex items-center lg:items-start flex-col gap-4  lg:gap-5'>
               {/* <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold"> Ermili<br className="hidden lg:block" /> Mohamed </h1> */}
               <div className="flex flex-col  gap-3">
-                <h1 className=' text-center md:text-start  text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl  font-bold leading-[1.3] relative font-orbitron'>
+                <h1 className=' text-center md:text-start  text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-9xl  font-bold leading-[1.3] relative font-orbitron'>
                   I&apos;m Ermili <br className="hidden lg:block" /> Mohamed
                 </h1>
                 <h2 className='text-center lg:text-start font-semibold text-xl text-display font-display'>
@@ -30,7 +30,7 @@ export default function Home() {
                   </strong> */}
                 </h2>
               </div>
-              <p className='text-center  lg:text-lg text-muted  sm:text-center  lg:text-left'>
+              <p className='text-center  lg:text-lg text-muted  sm:text-center  lg:text-left xl:max-w-[80%]'>
                 {personalInfo.description}
               </p>
 

@@ -14,7 +14,7 @@ export default function ContactPage() {
           <div className="flex flex-col gap-24">
             <div className='flex flex-col gap-2'>
               <span className='text-primary font-medium'>Talk About Ideas</span>
-              <h2 className='font-display text-3xl sm:text-4xl lg:text-5xl font-bold'>Let's Connect</h2>
+              <h2 className='font-display text-3xl sm:text-4xl lg:text-5xl font-bold'>Let&apos;s Connect</h2>
               <p className='text-muted mt-4 leading-8'>
                 {contactFormConfig.description}
               </p>

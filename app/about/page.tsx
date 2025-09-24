@@ -1,10 +1,8 @@
 import Image from "next/image";
 import MainTitle from "../components/MainTitle";
 import SkillRange from "../components/SkillRange";
-import ResumeSection from "../components/ResumeSection";
 import MainButton from "../components/MainButton";
 import ExternalLink from "../components/ExternalLink";
-import Link from "next/link";
 
 const page = () => {
  return (
@@ -74,10 +72,10 @@ const page = () => {
         My adventure in coding began as a self-taught developer, where I built a solid foundation learning HTML, CSS, and JavaScript from Elzero Web School and <ExternalLink href="https://www.freecodecamp.org/">FreeCodeCamp</ExternalLink>, where I earned my first <ExternalLink href="https://www.freecodecamp.org/certification/fccc9fc9cbc-a444-47f7-9f1b-9790711de2d2/responsive-web-design">Responsive Web Design certification</ExternalLink>. This self-directed learning journey ignited my passion for frontend development and prepared me for formal education at Lalla Aicha OFPPT, where I earned my <span className="font-medium ">diploma of full-stack development.</span>
        </p>
        <p className="text-muted leading-8 lg:pe-1">
-        In my professional voyage, I've continuously evolved my skills through diverse experiences. I sharpened my responsiveness and UI-to-code abilities while fixing style bugs at <ExternalLink href="https://agilteem.com/">Agilteem</ExternalLink>, then expanded into React development through freelance projects to update my knowledge. My journey progressed to Next.js, where I gained valuable expertise working as a freelancer with <ExternalLink href="http://edgenia.com/">Edgenia</ExternalLink>, experiences that tremendously honed my skills in modern frontend frameworks and pixel-perfect implementations.
+        In my professional voyage, I&apos;ve continuously evolved my skills through diverse experiences. I sharpened my responsiveness and UI-to-code abilities while fixing style bugs at <ExternalLink href="https://agilteem.com/">Agilteem</ExternalLink>, then expanded into React development through freelance projects to update my knowledge. My journey progressed to Next.js, where I gained valuable expertise working as a freelancer with <ExternalLink href="http://edgenia.com/">Edgenia</ExternalLink>, experiences that tremendously honed my skills in modern frontend frameworks and pixel-perfect implementations.
        </p>
        <p className="text-muted leading-8 lg:pe-1">
-        When I'm not diving into codes, you'd find me listening to tech podcasts like <ExternalLink href="https://geeksblabla.community/">Geeks Blabla Community</ExternalLink> to stay updated with industry trends, going for runs to clear my mind, and continuously exploring new technologies. I continue to learn, create, and strive to leave my mark in the world of frontend development, building fast, accessible, and visually appealing web applications that deliver exceptional user experiences.
+        When I&apos;m not diving into codes, you&apos;d find me listening to tech podcasts like <ExternalLink href="https://geeksblabla.community/">Geeks Blabla Community</ExternalLink> to stay updated with industry trends, going for runs to clear my mind, and continuously exploring new technologies. I continue to learn, create, and strive to leave my mark in the world of frontend development, building fast, accessible, and visually appealing web applications that deliver exceptional user experiences.
        </p>
       </div>
 

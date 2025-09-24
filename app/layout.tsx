@@ -7,7 +7,7 @@ import MobileNav from "./components/MobileNav";
 import { ThemeProvider } from "./components/ThemeProvider";
 
 const spaceGrotesk = Space_Grotesk({
-  variable: "--font-heading",
+  variable: "--font-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });

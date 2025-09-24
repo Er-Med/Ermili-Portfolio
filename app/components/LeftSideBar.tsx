@@ -14,7 +14,7 @@ const LeftSideBar = () => {
     <div className="flex justify-center ">
      <Link href="/" className="block">
       <div className="text-xl font-bold text-primary">
-       <Image src="/ErMedlogo.png" width={70} height={80} alt="ErMed logo" property='og:image' />
+       <Image src="/ErMedlogo.png" width={60} height={60} alt="ErMed logo" property='og:image' />
       </div>
      </Link>
     </div>

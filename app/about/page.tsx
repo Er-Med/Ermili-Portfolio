@@ -3,6 +3,8 @@ import MainTitle from "../components/MainTitle";
 import SkillRange from "../components/SkillRange";
 import ResumeSection from "../components/ResumeSection";
 import MainButton from "../components/MainButton";
+import ExternalLink from "../components/ExternalLink";
+import Link from "next/link";
 
 const page = () => {
  return (
@@ -23,18 +25,18 @@ const page = () => {
        <h5 className="text-xl md:text-2xl font-semibold text-primary"> Front-end Developer</h5>
       </div>
       <div className="">
-       <MainButton label="Hire Me" />
+       <MainButton as="a" label="Hire Me" href="/contact" />
       </div>
      </div>
     </section>
     {/* Right Section */}
-    <section className=" flex-1 pt-[var(--bottom-navbar-height)]  pb-[calc(var(--bottom-navbar-height)+2rem)] px-4 lg:px-12">
+    <section className=" flex-1 pt-[var(--bottom-navbar-height)]  pb-[calc(var(--bottom-navbar-height)+2rem)] px-4 lg:px-12 lg:pr-20 ">
      {/* About Me */}
      <div className="flex flex-col gap-24">
       <div className="flex flex-col">
        <MainTitle title="About Me" />
-       <p className="text-muted leading-8 lg:pe-4">
-        From Morocco, Casablanca. I have rich experience in front-end development with pixel-perfect coding, also I am good at UI/UX design. I love to talk with you about our unique projects. Front-end development services encompass a range of offerings aimed at creating responsive and interactive web applications across digital platforms. Here are some key services typically provided by front-end developers.
+       <p className="text-muted leading-8 lg:pe-4 ">
+        I’m Mohamed, a creative and passionate Front-end Developer who loves turning ideas into clean and responsive websites. Based in Morocco, I enjoy solving challenges, writing pixel-perfect code, and bringing unique designs to life. Every project is a new opportunity to learn, grow, and create meaningful digital experiences. I believe creativity and determination are the keys to building solutions that truly make an impact.
        </p>
       </div>
       {/* Professional Skill */}
@@ -65,8 +67,20 @@ const page = () => {
      </div>
      {/* Resume */}
      <div className="flex flex-col gap-10 mt-28">
-      <MainTitle title="Resume" />
-      <ResumeSection />
+      <MainTitle title="More About Me" />
+      {/* <ResumeSection /> to be added later*/}
+      <div className="flex flex-col gap-4">
+       <p className="text-muted leading-8 lg:pe-1 ">
+        My adventure in coding began as a self-taught developer, where I built a solid foundation learning HTML, CSS, and JavaScript from Elzero Web School and <ExternalLink href="https://www.freecodecamp.org/">FreeCodeCamp</ExternalLink>, where I earned my first <ExternalLink href="https://www.freecodecamp.org/certification/fccc9fc9cbc-a444-47f7-9f1b-9790711de2d2/responsive-web-design">Responsive Web Design certification</ExternalLink>. This self-directed learning journey ignited my passion for frontend development and prepared me for formal education at Lalla Aicha OFPPT, where I earned my <span className="font-medium ">diploma of full-stack development.</span>
+       </p>
+       <p className="text-muted leading-8 lg:pe-1">
+        In my professional voyage, I've continuously evolved my skills through diverse experiences. I sharpened my responsiveness and UI-to-code abilities while fixing style bugs at <ExternalLink href="https://agilteem.com/">Agilteem</ExternalLink>, then expanded into React development through freelance projects to update my knowledge. My journey progressed to Next.js, where I gained valuable expertise working as a freelancer with <ExternalLink href="http://edgenia.com/">Edgenia</ExternalLink>, experiences that tremendously honed my skills in modern frontend frameworks and pixel-perfect implementations.
+       </p>
+       <p className="text-muted leading-8 lg:pe-1">
+        When I'm not diving into codes, you'd find me listening to tech podcasts like <ExternalLink href="https://geeksblabla.community/">Geeks Blabla Community</ExternalLink> to stay updated with industry trends, going for runs to clear my mind, and continuously exploring new technologies. I continue to learn, create, and strive to leave my mark in the world of frontend development, building fast, accessible, and visually appealing web applications that deliver exceptional user experiences.
+       </p>
+      </div>
+
      </div>
      <div className="flex flex-col gap-10 mt-28">
       {/* <MainTitle title="Testimonial" /> */}

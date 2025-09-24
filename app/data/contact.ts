@@ -16,23 +16,23 @@ export const contactInfo = [
     title: "To Know More",
     icon: Phone,
     label: "Phone",
-    value: "+212-737 621 432",
-    href: "tel:+212737621432",
+    value: "+212-694103869",
+    href: "tel:+212694103869",
   },
   {
     id: "email",
     title: "Update Info",
     icon: AtSign,
     label: "Email Now",
-    value: "info@gmail.com",
-    href: "mailto:info@gmail.com",
+    value: "mohamedermili.dev@gmail.com",
+    href: "mailto:mohamedermili.dev@gmail.com",
   },
   {
     id: "location",
     title: "Local Coordinator",
     icon: MapPin,
     label: "Location",
-    value: "Morocco, casablanca",
+    value: "Morocco, Casablanca",
     href: "https://maps.google.com/?q=Casablanca,Morocco",
   },
   {
@@ -94,7 +94,7 @@ export const socialLinks = [
 export const contactFormConfig = {
   title: "Professional Skill",
   description:
-    "UI/UX services encompass a range of offerings aimed at enhancing user experiences and interfaces across digital products. Here are some key services typically provided by UI/UX designers",
+    "I specialize in frontend development services that bridge the gap between design and functionality. Whether you need a responsive website, a Next.js application, or UI bug fixes, I'm here to help transform your concepts into engaging user experiences.",
   fields: [
     {
       name: "fullName",
@@ -140,8 +140,8 @@ export const getInTouchConfig = {
     {
       id: "phone",
       label: "Phone",
-      value: "+212-737 621 432",
-      href: "tel:+212737621432",
+      value: "+212-694103869",
+      href: "tel:+212694103869",
       icon: "phone",
       iconPath:
         "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z",
@@ -149,8 +149,8 @@ export const getInTouchConfig = {
     {
       id: "email",
       label: "Email",
-      value: "info@gmail.com",
-      href: "mailto:info@gmail.com",
+      value: "mohamedermili.dev@gmail.com",
+      href: "mailto:mohamedermili.dev@gmail.com",
       icon: "email",
       iconPath:
         "M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
@@ -177,7 +177,7 @@ export const personalInfo = {
   location: "Morocco, Casablanca",
   email: "info@gmail.com",
   phone: "+212-737 621 432",
-  resume: "/Ermili_Mohamed_en.pdf",
+  resume: "/Ermili-Mohamed_CV.pdf",
   profileImage: "/imgme.jpeg",
   availability: "Available for freelance work",
 };

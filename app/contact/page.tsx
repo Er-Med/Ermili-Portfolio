@@ -10,11 +10,11 @@ export default function ContactPage() {
       {/* <section className='pb-[calc(var(--bottom-navbar-height)+2rem)]'> */}
       <section className='grid grid-cols-1 lg:grid-cols-2 h-full xl:h-screen'>
         {/* Left info panel */}
-        <div className='bg-primary/10 text-dark  lg:pt-12 px-4 lg:px-8 flex flex-col gap-6 pb-[calc(var(--bottom-navbar-height)+1rem)] py-[var(--bottom-navbar-height)]'>
+        <div className='bg-primary/10 text-dark  lg:pt-12 px-4 lg:px-8 flex flex-col gap-6 pb-[calc(var(--bottom-navbar-height)+1rem)] py-[var(--bottom-navbar-height)] max-lg:order-1'>
           <div className="flex flex-col gap-24">
             <div className='flex flex-col gap-2'>
               <span className='text-primary font-medium'>Talk About Ideas</span>
-              <h2 className='font-display text-3xl sm:text-4xl lg:text-5xl font-bold'>Contact Me</h2>
+              <h2 className='font-display text-3xl sm:text-4xl lg:text-5xl font-bold'>Let's Connect</h2>
               <p className='text-muted mt-4 leading-8'>
                 {contactFormConfig.description}
               </p>
@@ -57,8 +57,8 @@ export default function ContactPage() {
         </div>
 
         {/* Right form panel */}
-        <div className='bg-background px-4 lg:px-10 xl:px-14 xl:pr-14 pt-[var(--bottom-navbar-height)] pb-[calc(var(--bottom-navbar-height)+2rem)]'>
-          <MainTitle title={contactFormConfig.title} />
+        <div className='bg-background px-4 lg:px-10 xl:px-14 xl:pr-14 pt-[var(--bottom-navbar-height)] pb-[calc(var(--bottom-navbar-height)+2rem)] '>
+          <MainTitle title="Contact Me" />
           <form className='flex flex-col gap-8 lg:gap-10 mt-12 ' action={submitContactForm}>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10'>
               {contactFormConfig.fields.slice(0, 2).map((field) => (

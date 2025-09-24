@@ -25,7 +25,7 @@ export default function Home() {
                     And I&apos;m a
                     {/* Creative */}
                   </span>
-                  <span className='w-8 h-0.5 bg-dark me-2 group-hover:bg-primary transition-all duration-300'></span>
+                  <span className='w-8 h-0.5 bg-dark me-2 group-hover:bg-primary transition-all duration-300 '></span>
                   <strong className='text-xl lg:text-2xl  py-0.5 rounded-sm rounded-tl-none text-primary'>
                     {personalInfo.title}
                   </strong>
@@ -34,16 +34,16 @@ export default function Home() {
                   </strong> */}
                 </h2>
               </div>
-              <p className='text-center  lg:text-lg text-muted  sm:text-center  lg:text-left xl:max-w-[80%]'>
+              <p className='text-center  2xl:text-lg text-muted  sm:text-center  lg:text-left xl:max-w-[80%]'>
                 {personalInfo.description}
               </p>
 
               <div className='flex items-center  mt-6'>
                 <div className='flex items-center group'>
                   <MainButton label="Download My CV" href={personalInfo.resume} download={true} as="a" />
-                  <span className='w-8 h-0.5 bg-dark me-2 group-hover:bg-primary transition-all duration-300'></span>
+                  <span className='w-8 h-0.5 bg-dark me-2 group-hover:bg-primary transition-all duration-300 max-sm:hidden'></span>
                 </div>
-                <Link href={'/about'} className='font-display font-bold hover:text-primary transition-colors duration-300 hover:cursor-pointer text-lg '>
+                <Link href={'/about'} className='font-display font-bold hover:text-primary transition-colors duration-300 hover:cursor-pointer text-lg max-sm:hidden'>
                   About me
                 </Link>
               </div>
@@ -54,11 +54,13 @@ export default function Home() {
             <Image
               src={"/ermedhero.png"}
               unoptimized
+              quality={100}
+              priority={true}
               alt={`${personalInfo.name} profile image`}
               width={300}
               height={200}
-              priority
-              className="w-[200px] h-[300px] lg:w-[350px] lg:h-[400px] xl:h-[550px] xl:w-[550px] object-contain rounded-xl rounded-tl-none"
+              // priority
+              className="w-[200px] h-[300px] max-sm:h-[200px] max-sm:w-[200px] lg:w-[350px] lg:h-[400px] xl:h-[550px] xl:w-[550px] object-contain rounded-xl rounded-tl-none "
             />
           </div>
         </div>

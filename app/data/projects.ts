@@ -17,8 +17,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "portfolio-website",
-    title: "PERSONAL PORTFOLIO",
-    category: "Portfolio",
+    title: "Arab Innovation Hub",
+    category: "Digital Platform",
     image: "/projects/project1.jpg",
     shortDescription:
       "A clean, fast, and responsive personal portfolio showcasing projects, skills, and contact information.",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     id: "ecommerce-storefront",
     title: "E-COME STOREFRONT UI",
     category: "E-commerce",
-    image: "/projects/project2.jpg",
+    image: "/projects/project1.jpg",
     shortDescription:
       "Modern storefront UI exploring product discovery, cart flows, and responsive design.",
     overview:
@@ -50,10 +50,10 @@ export const projects: Project[] = [
     tools: ["nextjs", "react", "sass"],
   },
   {
-    id: "saas-landing",
-    title: "SAAS LANDING PAGE",
-    category: "Landing Page",
-    image: "/projects/project3.jpg",
+    id: "Data Visualization",
+    title: "Analytics Dashboard",
+    category: "Data Visualization",
+    image: "/projects/project1.jpg",
     shortDescription:
       "Conversion-focused landing page with pricing tiers and call-to-actions.",
     overview:
@@ -67,10 +67,10 @@ export const projects: Project[] = [
     tools: ["nextjs", "css"],
   },
   {
-    id: "weather-app",
-    title: "WEATHER DASHBOARD",
-    category: "Dashboard",
-    image: "/projects/project4.jpg",
+    id: "progressive-web-app",
+    title: "Progressive Web App",
+    category: "progressive-web-app",
+    image: "/projects/project1.jpg",
     shortDescription:
       "Realtime weather dashboard with multi-city comparison and forecasting.",
     overview:

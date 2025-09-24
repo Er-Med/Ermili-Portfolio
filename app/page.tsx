@@ -53,7 +53,7 @@ export default function Home() {
           <div className='bg-ambedr-200 flex-1 -order-1 lg:order-1 flex justify-center items-end  '>
             <Image
               src={"/ermedhero.png"}
-              unoptimized
+              // unoptimized
               quality={100}
               priority={true}
               alt={`${personalInfo.name} profile image`}

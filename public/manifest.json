@@ -1,0 +1,35 @@
+{
+  "name": "Ermili Mohamed - Front-end Developer Portfolio",
+  "short_name": "Ermili Mohamed",
+  "description": "Creative Front-end Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["portfolio", "technology", "business"],
+  "icons": [
+    {
+      "src": "/ErMedlogo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ErMedlogo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/ermili-mohamed.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

@@ -65,7 +65,7 @@ export const socialLinks = [
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/ermili-mohamed",
+    href: "https://linkedin.com/in/ermilimohamed",
     icon: Linkedin,
     external: true,
     ariaLabel: "LinkedIn Profile",

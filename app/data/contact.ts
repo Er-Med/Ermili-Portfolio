@@ -24,8 +24,8 @@ export const contactInfo = [
     title: "Update Info",
     icon: AtSign,
     label: "Email Now",
-    value: "mohamedermili.dev@gmail.com",
-    href: "mailto:mohamedermili.dev@gmail.com",
+    value: "contact@mohamedermili.com",
+    href: "mailto:contact@mohamedermili.com",
   },
   {
     id: "location",
@@ -49,7 +49,7 @@ export const contactInfo = [
 export const socialLinks = [
   {
     name: "Email",
-    href: "mailto:mohamedermili.dev@gmail.com",
+    href: "mailto:contact@mohamedermili.com",
     icon: Mail,
     external: false,
     ariaLabel: "Send Email",
@@ -149,8 +149,8 @@ export const getInTouchConfig = {
     {
       id: "email",
       label: "Email",
-      value: "mohamedermili.dev@gmail.com",
-      href: "mailto:mohamedermili.dev@gmail.com",
+      value: "contact@mohamedermili.com",
+      href: "mailto:contact@mohamedermili.com",
       icon: "email",
       iconPath:
         "M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",

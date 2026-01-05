@@ -4,11 +4,12 @@ import Link from "next/link";
 import ExternalLink from "@/app/components/ExternalLink";
 
 type PageProps = {
- params: { id: string; };
+ params: Promise<{ id: string; }>;
 };
 
-export default function ProjectDetailsPage({ params }: PageProps) {
- const project = projects.find((p) => p.id === params.id);
+export default async function ProjectDetailsPage({ params }: PageProps) {
+ const { id } = await params;
+ const project = projects.find((p) => p.id === id);
 
  if (!project) {
   return (

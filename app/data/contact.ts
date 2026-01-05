@@ -61,7 +61,7 @@ export const socialLinks = [
     icon: Github,
     external: true,
     ariaLabel: "GitHub Profile",
-    color: "#333",
+    color: "#333333",
   },
   {
     name: "LinkedIn",

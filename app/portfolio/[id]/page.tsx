@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { projects } from "@/app/data/projects";
 import Link from "next/link";
+import ExternalLink from "@/app/components/ExternalLink";
 
 type PageProps = {
- params: { id: string };
+ params: { id: string; };
 };
 
 export default function ProjectDetailsPage({ params }: PageProps) {
@@ -26,8 +27,8 @@ export default function ProjectDetailsPage({ params }: PageProps) {
    <div className="flex">
     {/* LEFT: IMAGE */}
     <section className="min-w-[43%] hidden lg:block">
-     <div className="sticky top-0 h-[calc(100vh-var(--bottom-navbar-height))]">
-      <Image src={project.image} width={520} height={520} alt={project.title} className="w-full h-full object-cover" />
+     <div className="sticky top-0 h-[calc(100vh-var(--bottom-navbar-height))] p-4 lg:p-6">
+      <Image src={project.image} width={520} height={520} alt={project.title} className="w-full h-full object-cover rounded-lg" />
       {/* <div className="">   
       </div> */}
      </div>
@@ -75,7 +76,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
      </div>
 
      {/* Tools */}
-     <div className="mt-10">
+     {/* <div className="mt-10">
       <h3 className="font-display font-bold text-2xl md:text-3xl mb-4">Tools</h3>
       <div className="flex flex-wrap gap-4">
        {project.tools.map((tool) => (
@@ -85,7 +86,19 @@ export default function ProjectDetailsPage({ params }: PageProps) {
         </div>
        ))}
       </div>
-     </div>
+     </div> */}
+
+     {/* Visit Website Link */}
+     {project.url && (
+      <div className="mt-10">
+       <ExternalLink href={project.url} className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-display font-medium hover:bg-primary/90 transition-colors">
+        Visit Website
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+       </ExternalLink>
+      </div>
+     )}
     </section>
    </div>
   </div>

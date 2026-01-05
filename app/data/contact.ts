@@ -16,8 +16,8 @@ export const contactInfo = [
     title: "To Know More",
     icon: Phone,
     label: "Phone",
-    value: "+212-694103869",
-    href: "tel:+212694103869",
+    value: "+212656993361",
+    href: "tel:+212656993361",
   },
   {
     id: "email",
@@ -94,7 +94,7 @@ export const socialLinks = [
 export const contactFormConfig = {
   title: "Professional Skill",
   description:
-    "I specialize in frontend development services that bridge the gap between design and functionality. Whether you need a responsive website, a Next.js application, or UI bug fixes, I'm here to help transform your concepts into engaging user experiences.",
+    "I offer comprehensive website development services for businesses and individuals. From custom websites and landing pages to e-commerce stores and portfolio sites, I help bring your vision to life with modern, responsive designs that convert visitors into customers.",
   fields: [
     {
       name: "fullName",
@@ -140,8 +140,8 @@ export const getInTouchConfig = {
     {
       id: "phone",
       label: "Phone",
-      value: "+212-694103869",
-      href: "tel:+212694103869",
+      value: "+212656993361",
+      href: "tel:+212656993361",
       icon: "phone",
       iconPath:
         "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z",
@@ -171,9 +171,9 @@ export const getInTouchConfig = {
 export const personalInfo = {
   name: "Mohamed",
   fullName: "Ermili <br /> Mohamed",
-  title: "Front End Developer",
+  title: "Web Developer",
   description:
-    "My work focuses on creating modern web applications that balance speed, accessibility, and beautiful user experiences.",
+    "I help businesses and entrepreneurs build professional, responsive websites that drive results. From landing pages to e-commerce stores, I deliver custom web solutions tailored to your needs.",
   location: "Morocco, Casablanca",
   email: "info@gmail.com",
   phone: "+212-737 621 432",

@@ -29,14 +29,14 @@ const ResumeSection = () => {
 
   const experience = [
     {
-      title: "FRONTEND DEVELOPER (Freelance)",
+      title: "WEB DEVELOPER (Freelance)",
       subtitle: "Self-Employed",
       date: "Feb 2024 - Present",
       description:
         "Delivered custom web solutions for clients using Next.js, Tailwind, React. Focused on building responsive, accessible, and high-performance web applications tailored to client needs.",
     },
     {
-      title: "FRONTEND DEVELOPER (Internship)",
+      title: "WEB DEVELOPER (Internship)",
       subtitle: "AgilTeem",
       date: "Nov 2023 - Jan 2024",
       description:

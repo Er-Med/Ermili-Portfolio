@@ -54,7 +54,7 @@ export default function ContactSuccessPage() {
         <span className="text-sm sm:text-base text-start">
          For urgent matters, you can call me directly at{" "}
          <a href="tel:+212737621432" className="text-primary hover:text-primary/80 transition-colors break-all">
-          +212-694 103 869
+          +212656993361
          </a>
         </span>
        </li>

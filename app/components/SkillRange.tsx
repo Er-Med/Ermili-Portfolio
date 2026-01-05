@@ -40,6 +40,6 @@ const SkillRange = ({
    </div>
   </div>
  );
-}
+};
 
 export default SkillRange;

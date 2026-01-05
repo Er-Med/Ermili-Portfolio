@@ -26,12 +26,12 @@ const orbitron = Orbitron({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ermili Mohamed - Front-end Developer | React & Next.js Expert",
-    template: "%s | Ermili Mohamed - Front-end Developer"
+    default: "Ermili Mohamed - Web Developer | React & Next.js Expert",
+    template: "%s | Ermili Mohamed - Web Developer"
   },
-  description: "Creative Front-end Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies. Building responsive, pixel-perfect websites and web applications with exceptional user experiences.",
+  description: "Creative Web Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies. Building responsive, pixel-perfect websites and web applications with exceptional user experiences.",
   keywords: [
-    "Front-end Developer",
+    "Web Developer",
     "React Developer",
     "Next.js Developer",
     "TypeScript Developer",
@@ -61,21 +61,21 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://ermili-mohamed.vercel.app", // Replace with your actual domain
     siteName: "Ermili Mohamed Portfolio",
-    title: "Ermili Mohamed - Front-end Developer | React & Next.js Expert",
-    description: "Creative Front-end Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies. Building responsive, pixel-perfect websites and web applications.",
+    title: "Ermili Mohamed - Web Developer | React & Next.js Expert",
+    description: "Creative Web Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies. Building responsive, pixel-perfect websites and web applications.",
     images: [
       {
         url: "/ermili-mohamed.png", // Your profile image
         width: 1200,
         height: 630,
-        alt: "Ermili Mohamed - Front-end Developer",
+        alt: "Ermili Mohamed - Web Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ermili Mohamed - Front-end Developer | React & Next.js Expert",
-    description: "Creative Front-end Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies.",
+    title: "Ermili Mohamed - Web Developer | React & Next.js Expert",
+    description: "Creative Web Developer from Morocco specializing in React, Next.js, TypeScript, and modern web technologies.",
     images: ["/ermili-mohamed.png"],
     creator: "@your_twitter_handle", // Replace with your actual Twitter handle
   },

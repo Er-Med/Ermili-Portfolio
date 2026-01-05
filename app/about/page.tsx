@@ -20,7 +20,7 @@ const page = () => {
      <div className="flex flex-col gap-10 items-center">
       <div className="flex justify-center items-center gap-2 flex-col ">
        <h4 className="text-4xl md:text-5xl font-bold">Ermili Mohamed</h4>
-       <h5 className="text-xl md:text-2xl font-semibold text-primary"> Front-end Developer</h5>
+       <h5 className="text-xl md:text-2xl font-semibold text-primary"> Web Developer</h5>
       </div>
       <div className="">
        <MainButton as="a" label="Hire Me" href="/contact" />
@@ -34,7 +34,7 @@ const page = () => {
       <div className="flex flex-col">
        <MainTitle title="About Me" />
        <p className="text-muted leading-8 lg:pe-4 ">
-        I’m Mohamed, a creative and passionate Front-end Developer who loves turning ideas into clean and responsive websites. Based in Morocco, I enjoy solving challenges, writing pixel-perfect code, and bringing unique designs to life. Every project is a new opportunity to learn, grow, and create meaningful digital experiences. I believe creativity and determination are the keys to building solutions that truly make an impact.
+        I'm Mohamed, a dedicated Web Developer who specializes in creating professional, responsive websites for businesses and entrepreneurs. Based in Morocco, I work with clients worldwide to transform their ideas into powerful online presences. Whether it's a landing page to boost conversions, an e-commerce store to sell products, or a portfolio site to showcase work, I deliver custom solutions that drive results. Every project is an opportunity to help a client succeed online, and I'm committed to delivering websites that not only look great but also perform exceptionally.
        </p>
       </div>
       {/* Professional Skill */}
@@ -50,15 +50,17 @@ const page = () => {
          <SkillRange number={4} tool="React" percent={90} iconSrc="/tools/react.svg" />
          <SkillRange number={5} tool="JavaScript" percent={90} iconSrc="/tools/javascript.svg" />
          <SkillRange number={6} tool="Tailwind" percent={90} iconSrc="/tools/tailwind.svg" />
+         <SkillRange number={7} tool="Webflow" percent={75} iconSrc="/tools/webflow.svg" />
         </div>
         <div className="flex flex-1 flex-col gap-8 relative">
          <span className="absolute w-0.5 h-full -left-2 top-1/2 -translate-y-1/2 bg-primary/15 rounded-lg rounded-tl-none"></span>
-         <SkillRange number={7} tool="TypeScript" percent={85} iconSrc="/tools/typescript.svg" />
-         <SkillRange number={8} tool="Sass" percent={85} iconSrc="/tools/sass.svg" />
-         <SkillRange number={9} tool="Git" percent={85} iconSrc="/tools/git.svg" />
-         <SkillRange number={10} tool="Bootstrap" percent={80} iconSrc="/tools/bootstrap.svg" />
-         <SkillRange number={11} tool="Figma" percent={75} iconSrc="/tools/figma.svg" />
-         <SkillRange number={12} tool="React Native" percent={70} iconSrc="/tools/reactNative.svg" />
+         <SkillRange number={8} tool="TypeScript" percent={85} iconSrc="/tools/typescript.svg" />
+         <SkillRange number={9} tool="Sass" percent={85} iconSrc="/tools/sass.svg" />
+         <SkillRange number={10} tool="Git" percent={85} iconSrc="/tools/git.svg" />
+         <SkillRange number={11} tool="Bootstrap" percent={80} iconSrc="/tools/bootstrap.svg" />
+         <SkillRange number={12} tool="Figma" percent={75} iconSrc="/tools/figma.svg" />
+         <SkillRange number={13} tool="React Native" percent={70} iconSrc="/tools/reactNative.svg" />
+         <SkillRange number={14} tool="WordPress" percent={80} iconSrc="/tools/wordpress.svg" />
         </div>
        </div>
       </div>
@@ -75,7 +77,7 @@ const page = () => {
         In my professional voyage, I&apos;ve continuously evolved my skills through diverse experiences. I sharpened my responsiveness and UI-to-code abilities while fixing style bugs at <ExternalLink href="https://agilteem.com/">Agilteem</ExternalLink>, then expanded into React development through freelance projects to update my knowledge. My journey progressed to Next.js, where I gained valuable expertise working as a freelancer with <ExternalLink href="http://edgenia.com/">Edgenia</ExternalLink>, experiences that tremendously honed my skills in modern frontend frameworks and pixel-perfect implementations.
        </p>
        <p className="text-muted leading-8 lg:pe-1">
-        When I&apos;m not diving into codes, you&apos;d find me listening to tech podcasts like <ExternalLink href="https://geeksblabla.community/">Geeks Blabla Community</ExternalLink> to stay updated with industry trends, going for runs to clear my mind, and continuously exploring new technologies. I continue to learn, create, and strive to leave my mark in the world of frontend development, building fast, accessible, and visually appealing web applications that deliver exceptional user experiences.
+        When I&apos;m not working on client projects, you&apos;d find me listening to tech podcasts like <ExternalLink href="https://geeksblabla.community/">Geeks Blabla Community</ExternalLink> to stay updated with industry trends, going for runs to clear my mind, and continuously exploring new technologies. I continue to learn, create, and help businesses establish their online presence, building fast, accessible, and visually appealing websites that deliver exceptional user experiences and drive business growth.
        </p>
       </div>
 

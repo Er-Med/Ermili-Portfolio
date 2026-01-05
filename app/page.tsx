@@ -40,7 +40,7 @@ export default function Home() {
 
               <div className='flex items-center  mt-6'>
                 <div className='flex items-center group'>
-                  <MainButton label="Download My CV" href={personalInfo.resume} download={true} as="a" />
+                  <MainButton label="Get In Touch" href="/contact" as="a" />
                   <span className='w-8 h-0.5 bg-dark me-2 group-hover:bg-primary transition-all duration-300 max-sm:hidden'></span>
                 </div>
                 <Link href={'/about'} className='font-display font-bold hover:text-primary transition-colors duration-300 hover:cursor-pointer text-lg max-sm:hidden'>
@@ -60,7 +60,7 @@ export default function Home() {
               width={300}
               height={200}
               // priority
-              className="w-[200px] h-[300px] max-sm:h-[200px] max-sm:w-[200px] lg:w-[350px] lg:h-[400px] xl:h-[550px] xl:w-[550px] object-contain rounded-xl rounded-tl-none "
+              className="hero-image w-[200px] h-[300px] max-sm:h-[200px] max-sm:w-[200px] lg:w-[350px] lg:h-[400px] xl:h-[550px] xl:w-[550px] object-contain rounded-xl rounded-tl-none "
             />
           </div>
         </div>

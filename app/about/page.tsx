@@ -34,7 +34,7 @@ const page = () => {
       <div className="flex flex-col">
        <MainTitle title="About Me" />
        <p className="text-muted leading-8 lg:pe-4 ">
-        I'm Mohamed, a dedicated Web Developer who specializes in creating professional, responsive websites for businesses and entrepreneurs. Based in Morocco, I work with clients worldwide to transform their ideas into powerful online presences. Whether it's a landing page to boost conversions, an e-commerce store to sell products, or a portfolio site to showcase work, I deliver custom solutions that drive results. Every project is an opportunity to help a client succeed online, and I'm committed to delivering websites that not only look great but also perform exceptionally.
+        I&apos;m Mohamed, a dedicated Web Developer who specializes in creating professional, responsive websites for businesses and entrepreneurs. Based in Morocco, I work with clients worldwide to transform their ideas into powerful online presences. Whether it&apos;s a landing page to boost conversions, an e-commerce store to sell products, or a portfolio site to showcase work, I deliver custom solutions that drive results. Every project is an opportunity to help a client succeed online, and I&apos;m committed to delivering websites that not only look great but also perform exceptionally.
        </p>
       </div>
       {/* Professional Skill */}
